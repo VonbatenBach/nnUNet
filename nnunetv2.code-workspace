@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "nnunetv2"
+		},
+		{
+			"path": "../nnUNetv2-modifications"
 		}
 	],
 	"settings": {}

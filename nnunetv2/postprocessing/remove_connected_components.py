@@ -167,7 +167,7 @@ def determine_postprocessing(folder_predictions: str,
 
         # in the old nnU-Net we could just apply all-but-largest component removal to all classes at the same time and
         # then evaluate for each class whether this improved results. This is no longer possible because we now support
-        # region-based predictions and regions can overlap, causing interactions
+        # # region-based predictions and regions can overlap, causing interactions
         # in principle the order with which the postprocessing is applied to the regions matter as well and should be
         # investigated, but due to some things that I am too lazy to explain right now it's going to be alright (I think)
         # to stick to the order in which they are declared in dataset.json (if you want to think about it then think about
